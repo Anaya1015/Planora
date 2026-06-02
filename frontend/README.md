@@ -1,16 +1,65 @@
-# React + Vite
+# 📘 Planora – Study Tracker & Streak App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
+Planora is a React-based study tracking web application that helps users manage tasks, track study time, and maintain daily learning streaks. It is designed to improve productivity and consistency.
 
-Currently, two official plugins are available:
+## ✨ Features
+- Add, edit, and delete study tasks  
+- Start, pause, and stop timer for each task  
+- Track completed study hours  
+- Daily streak system (based on study minutes)  
+- Data saved in Local Storage  
+- Logout functionality with route redirect  
+- Clean and simple UI  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Tech Stack
+- React.js  
+- JavaScript (ES6+)  
+- React Router DOM  
+- HTML & CSS (Inline Styling)  
+- Local Storage API  
 
-## React Compiler
+## 📂 Project Structure
+src/
+│
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── Login.jsx
+│   ├── AddTask.jsx
+│   ├── Streak.jsx
+│   └── Schedule.jsx
+│
+├── components/
+├── styles/
+└── App.jsx
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ▶ How to Run
 
-## Expanding the ESLint configuration
+# Clone repo
+git clone https://github.com/your-username/planora.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Install dependencies
+npm install
+
+# Start project
+npm start
+
+## 🔥 Streak System
+- User must study at least 3 minutes per day  
+- If condition met → streak increases by 1  
+- Only counted once per day  
+
+## 🚪 Logout Feature
+- Clears running timer data  
+- Redirects user to login page  
+
+## 👨‍💻 Author
+Your Name
+
+GitHub: https://github.com/your-username
+
+## 📌 Future Improvements
+- Backend integration (MongoDB / Firebase)  
+- Better UI design improvements  
+- Mobile responsive design  
+- Analytics dashboard  
