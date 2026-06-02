@@ -36,7 +36,7 @@ src/
 ## ▶ How to Run
 
 # Clone repo
-git clone https://github.com/your-username/planora.git
+git clone https://github.com/Anaya1015/planora.git
 
 # Install dependencies
 npm install
