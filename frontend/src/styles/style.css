@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: var(--bg);
+  color: var(--text);
+}
+
+:root {
+  --primary: #556b2f;
+  --light: #a3b18a;
+  --bg: #f4f6f0;
+  --card: #ffffff;
+  --text: #1f2a16;
+}
+
+/* Buttons */
+button {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: var(--light);
+}
+
+/* Inputs */
+input {
+  padding: 10px;
+  margin: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Logout Button */
+logout {
+  padding: "10px 14px";
+  border-radius: 10;
+  border: 0;
+  background: "#7a1f1f";
+  color: "white";
+}
+
+/* Cards */
+.card {
+  background: var(--card);
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
