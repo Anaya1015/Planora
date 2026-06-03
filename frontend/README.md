@@ -53,11 +53,6 @@ npm start
 - Clears running timer data  
 - Redirects user to login page  
 
-## 👨‍💻 Author
-Your Name
-
-GitHub: https://github.com/your-username
-
 ## 📌 Future Improvements
 - Backend integration (MongoDB / Firebase)  
 - Better UI design improvements  
