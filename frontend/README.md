@@ -41,9 +41,6 @@ git clone https://github.com/Anaya1015/planora.git
 # Install dependencies
 npm install
 
-# Start project
-npm start
-
 ## 🔥 Streak System
 - User must study at least 3 minutes per day  
 - If condition met → streak increases by 1  
